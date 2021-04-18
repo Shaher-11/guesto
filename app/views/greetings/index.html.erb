@@ -1,4 +1,5 @@
 <p id="notice"><%= notice %></p>
+<%= render("form", greeting: Greeting.new) %>
 <br/>
 <% @greetings.each do |greeting| %>
   <div class="media">
